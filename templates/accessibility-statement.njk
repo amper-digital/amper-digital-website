@@ -1,0 +1,28 @@
+{% extends "base.njk" %}
+
+{% block content %}
+<section>
+    <h1 class="mt-5 mb-5">Accessibility Statement</h1>
+    <p>The Amper Digital website has been designed and tested to be in compliance with the <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="new_window">Web Content Accessibility
+    Guidelines (WCAG) 2.1</a>. If you encounter an accessibility issue, please <a href="index.html#contact" target="new_window">contact us 
+    </a>with the issue so we can fix it right away!</p>
+</section>
+<section class="mb-5">
+    <h2 class="mt-5 mb-5">Summary of accessibility features</h2>
+    <ul class="mb-5">
+        <li>Structural and navigational aids have been created, such as headings and 'skip to content' links for screen reader users.</li>
+        <li>All images and other non-text elements have alternative text associated with them.</li>
+        <li>Form elements have labels.</li>
+        <li>All features are functional with a variety of input methods including mouse, keyboard, touch, and voice.</li>
+        <li>Scripts and interactive components follow WCAG 2.1 guidance and <a href="https://www.w3.org/WAI/ARIA/apg/" target="new_window" >ARIA authouring practices.</a></li>
+    </ul>
+    <h3 class="mt-3 mb-3">Conformance status</h3>
+    <p>
+    The Web Content Accessibility Guidelines (WCAG) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. This website is fully conformant with WCAG 2.1 level AA.
+    </p>
+    <h3 class="mt-3 mb-3">Feedback</h3>
+    <p>We welcome any and all feedback on the accessibility of our website. Please let us know if you encounter any accessibility issues or would like to see more accessibility features in future iterations.</p>
+    {% include "includes/contact.njk" %}
+    <p>This statement was last updated on 5th October 2023.</p>
+</section>
+{% endblock %}
