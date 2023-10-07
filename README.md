@@ -1,6 +1,8 @@
 # Amper Digital
+![Amper Digital: Accessibility testing, training, and consultancy](https://raw.githubusercontent.com/amper-digital/amper-digital-website/main/assets/logofordocs.png)
 
-[Deployed test site](https://tararhoseyn.github.io/amper-digital/)
+## View deployed site
+[Website](https://amper-digital.netlify.app/)
 
 ## Dependencies
 - EmailJS
