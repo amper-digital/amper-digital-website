@@ -25,7 +25,7 @@ try {
     createPage 1st param: name of .njk template, will also be set as name for .html file
     createPage 2nd param: sets <title> attribute of html file
     */
-    // createPage('index', 'Home'); DEBUGGING HOME PAGE ATM
+    createPage('index', 'Home')
     createPage('404', '404 error');
     createPage('training', 'Training');
     createPage('testing', 'Testing');
