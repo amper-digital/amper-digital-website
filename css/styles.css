@@ -196,7 +196,7 @@ footer.bg-light {
 
 .social-icon {
     font-size: 1.4rem!important;
-    color: rgb(108, 108, 108);
+    color: #525252;
 }
 
 .social-icon:hover {
@@ -204,7 +204,7 @@ footer.bg-light {
 }
 
 .about-link {
-    color: rgb(159, 159, 159);
+    color: #525252;
 }
 
 .index-para {
