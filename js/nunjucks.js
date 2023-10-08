@@ -4,9 +4,11 @@ const fs = require('fs');
 nunjucks.configure('./templates', { autoescape: true });
 
 class Page {
-    constructor(filename, pageTitle) {
+    constructor(filename, pageTitle, language, otherLangPage) {
         this.filename = filename;
         this.pageTitle = pageTitle;
+        this.language = language;
+        this.otherLangPage = otherLangPage;
     }
 
     create() {
@@ -19,19 +21,23 @@ class Page {
             nunjucks.render(`${this.filename}.njk`, {
                 pageTitle: `${this.pageTitle} | Amper Digital`,
                 filePath: relFilePath,
+                language: `${this.language}`,
+                otherLangPage: `${this.otherLangPage}`,
             })
         );
     }
 }
 
 const pages = [
-    new Page('index', 'Home'),
-    new Page('404', '404 error'),
-    new Page('training', 'Training'),
-    new Page('testing', 'Testing'),
-    new Page('consulting', 'Consulting Services'),
-    new Page('accessibility-statement', 'Accessibility Statement'),
-    new Page('privacy-policy', 'Privacy Policy'),
+    // Page(filename, page title, language, other language url)
+    new Page('index', 'Home', 'en', 'test'),
+    new Page('404', '404 error', 'en', 'test'),
+    new Page('training', 'Training', 'en', 'test'),
+    new Page('testing', 'Testing', 'en', 'test'),
+    new Page('consulting', 'Consulting Services', 'en', 'test'),
+    new Page('accessibility-statement', 'Accessibility Statement', 'en', 'test'),
+    new Page('privacy-policy', 'Privacy Policy', 'en', 'polisi-preifatrwydd.html'),
+    new Page('polisi-preifatrwydd', 'Polisi Preifatrwydd', 'cy', 'privacy-policy.html')
 ];
 
 try {

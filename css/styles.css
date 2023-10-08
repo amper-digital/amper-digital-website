@@ -16,7 +16,9 @@ body {
 #index-h2 {
     font-size: large!important;
 }
-
+#lang-toggle a {
+    color: white!important;
+}
 #index-ampersand {
     font-weight: 600;
     font-size: 50px;
@@ -24,7 +26,7 @@ body {
     font-family: 'Alike', sans-serif!important;
 }
 
-.btn:not(#theme-toggle) {
+.btn:not(#theme-toggle):not(#lang-toggle) {
     background-color:var(--purple)!important;
     border: var(--purple)!important;
     border-radius: 50px!important;
@@ -33,7 +35,7 @@ body {
     transition: background-color 0.3s ease;
     transition: transform 0.2s ease;
 }
-.btn:hover:not(#theme-toggle) {
+.btn:hover:not(#theme-toggle):not(#lang-toggle) {
     background-color: var(--purple)!important;
     border: var(--purple)!important;
     box-shadow: 5px 5px 10px rgba(184, 182, 182, 0.3);

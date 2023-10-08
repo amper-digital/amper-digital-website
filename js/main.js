@@ -36,6 +36,7 @@ function getDarkCssPath() {
     return basePath + 'css/dark.css';
 }
 
+
 const themeToggleBtn = document.getElementById('theme-toggle');
 themeToggleBtn.addEventListener('click', toggleTheme);
 

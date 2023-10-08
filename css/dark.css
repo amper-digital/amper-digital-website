@@ -32,7 +32,7 @@ footer a, .footer-copyright {
     color: rgb(234, 234, 234);
 }
 
-.btn:not(#theme-toggle) {
+.btn:not(#theme-toggle):not(#lang-toggle) {
     background-color:var(--purple)!important;
     border: var(--purple)!important;
     border-radius: 50px!important;
@@ -42,7 +42,7 @@ footer a, .footer-copyright {
     transition: transform 0.2s ease;
     color: #000;
 }
-.btn:hover:not(#theme-toggle) {
+.btn:hover:not(#theme-toggle):not(#lang-toggle) {
     background-color: var(--purple)!important;
     border: var(--purple)!important;
     box-shadow: 5px 5px 10px rgba(184, 182, 182, 0.3);
