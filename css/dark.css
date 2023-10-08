@@ -1,0 +1,86 @@
+:root {
+    --dark: rgb(56, 56, 56);
+    --purple: #C285FF;
+}
+
+body, .dropdown-menu, .show {
+    background-color: var(--dark)!important;
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    color: var(--dark)!important;
+}
+
+#content-skip {
+    background-color: var(--dark);
+    color: #fff;
+}
+
+.navbar {
+    background-color: var(--dark)!important;
+    box-shadow: -2px 5px 10px rgba(104, 103, 103, 0.3);
+    color: #fff!important;
+}
+
+footer.bg-light {
+    background-color: var(--dark)!important;
+    box-shadow: 5px -5px 10px rgba(104, 103, 103, 0.3);
+}
+
+footer a, .footer-copyright {
+    color: rgb(234, 234, 234);
+}
+
+.btn:not(#theme-toggle) {
+    background-color:var(--purple)!important;
+    border: var(--purple)!important;
+    border-radius: 50px!important;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    transition: background-color 0.3s ease;
+    transition: transform 0.2s ease;
+    color: #000;
+}
+.btn:hover:not(#theme-toggle) {
+    background-color: var(--purple)!important;
+    border: var(--purple)!important;
+    box-shadow: 5px 5px 10px rgba(184, 182, 182, 0.3);
+    transform: scale(1.05);
+    color: #000;
+}
+
+.about-link, .social-icon {
+    color: rgb(226, 226, 226);
+}
+
+.social-icon:hover {
+    color: rgb(139, 139, 139);
+}
+
+.navbar a {
+    color: rgb(239, 235, 235)!important;
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 0);
+}
+
+p a {
+    color: #94c8ff;
+}
+
+p a:hover {
+    color: #72b6ff;
+}
+
+.form-control {
+    background-color: #4c4c4c;
+}
+.form-control::placeholder {
+    color: #b8b7b7;
+}
+
+.navbar-toggler, #toggle-icon {
+    color: #fff!important;
+}
