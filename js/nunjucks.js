@@ -31,6 +31,7 @@ try {
     createPage('testing', 'Testing');
     createPage('consulting', 'Consulting Services');
     createPage('accessibility-statement', 'Accessibility Statement');
+    createPage('privacy-policy', 'Privacy Policy');
     // success message:
     console.log('Pages successfully created.');
 } catch(error) {
