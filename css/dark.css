@@ -1,6 +1,6 @@
 :root {
     --dark: rgb(56, 56, 56);
-    --purple: #C285FF;
+    --purple: #8000FF;
 }
 
 body, .dropdown-menu, .show {
@@ -32,22 +32,38 @@ footer a, .footer-copyright {
     color: rgb(234, 234, 234);
 }
 
-.btn:not(#theme-toggle):not(#lang-toggle) {
+.btn:not(#theme-toggle):not(#lang-toggle):not(#btn-home) {
     background-color:var(--purple)!important;
     border: var(--purple)!important;
-    border-radius: 50px!important;
+    border-radius: 5px!important;
     padding-left: 20px!important;
     padding-right: 20px!important;
     transition: background-color 0.3s ease;
     transition: transform 0.2s ease;
-    color: #000;
 }
-.btn:hover:not(#theme-toggle):not(#lang-toggle) {
-    background-color: var(--purple)!important;
+.btn:hover:not(#theme-toggle):not(#lang-toggle):not(#btn-home) {
+    background: linear-gradient(135deg, #8000FF, #FF0080);
     border: var(--purple)!important;
     box-shadow: 5px 5px 10px rgba(184, 182, 182, 0.3);
     transform: scale(1.05);
+}
+
+#btn-home {
+    background-color: #00FEEF!important;
     color: #000;
+    border-radius: 50px;
+    border-color: none;
+    border-radius: 5px!important;
+    transition: transform 0.2s ease;
+    /* text-decoration: none; */
+    /* transition: background-color 0.3s ease; */
+}
+
+#btn-home:hover {
+    background: linear-gradient(135deg, #00FEEF, #00FE19);
+    box-shadow: 5px 5px 10px rgba(184, 182, 182, 0.3);
+    transform: scale(1.05);
+    border-color: none;
 }
 
 .about-link, .social-icon {
