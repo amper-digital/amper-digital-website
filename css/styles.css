@@ -176,6 +176,9 @@ footer.bg-light {
     border-color: none;
 }
 
+.webdev_examples {
+    width: 100%;
+}
 
 #index-h2 {
     font-size: 1.5rem!important;
