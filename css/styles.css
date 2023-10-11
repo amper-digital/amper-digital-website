@@ -284,7 +284,7 @@ footer.bg-light {
 @media (min-width: 1024px) and (max-width: 1279px) {
     /* Your CSS rules for laptops go here */
     #index-h1 {
-        padding-top: 100px;
+        padding-top: 50px;
     }
     .social-icons {
         margin-left: 25px!important;
