@@ -13,6 +13,10 @@ body {
     font-family: 'Lexend', sans-serif!important;
 }
 
+.hero-section {
+    height: 100vh;
+}
+
 #index-h2 {
     font-size: large!important;
 }
@@ -159,10 +163,11 @@ footer.bg-light {
 }
 
 #btn-home {
-    background-color: #00FEEF!important;
-    color: #000;
+    background-color: #00f6fe!important;
+    color: #000000;
     border-radius: 50px;
     border-color: none;
+    border: none;
     border-radius: 5px!important;
     transition: transform 0.2s ease;
     /* text-decoration: none; */
@@ -170,7 +175,7 @@ footer.bg-light {
 }
 
 #btn-home:hover {
-    background: linear-gradient(135deg, #00FEEF, #00FE19);
+    background: linear-gradient(135deg, #00f6fe, #00FE19);
     box-shadow: 5px 5px 10px rgba(184, 182, 182, 0.3);
     transform: scale(1.05);
     border-color: none;
@@ -274,7 +279,7 @@ footer.bg-light {
 /* Styles for tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
     #index-h1 {
-        padding-top: 100px;
+        padding-top: 50px;
     }
     /* Your CSS rules for tablets go here */
 }
@@ -284,7 +289,7 @@ footer.bg-light {
 @media (min-width: 1024px) and (max-width: 1279px) {
     /* Your CSS rules for laptops go here */
     #index-h1 {
-        padding-top: 50px;
+        padding-top: 25px;
     }
     .social-icons {
         margin-left: 25px!important;
@@ -310,7 +315,7 @@ footer.bg-light {
 @media (min-width: 1280px) {
     /* Your CSS rules for large desktops go here */
     #index-h1 {
-        padding-top: 250px!important;
+        padding-top: 70px!important;
         font-size: 7rem;
     }
     .index-section {
